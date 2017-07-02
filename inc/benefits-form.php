@@ -4,7 +4,7 @@
 
 
 
-<section id="the-content" class="ben-benefits txt-left row">
+<div class="ben-benefits txt-left row">
     <div class="ben-benefits-container col-md-7 ben-benefits-item">
         <h2>The Benefit of <strong>DTG Printing</strong></h2>
         <p>With Brother’s DTG printer, the GTX, you get all of the traditional benefits of our direct to garment printers plus an expanded offering of additional features and benefits you’ll only find with the GTX.</p>
@@ -42,5 +42,5 @@
             </div>
         </form>
     </div>
-</section>
+</div>
 

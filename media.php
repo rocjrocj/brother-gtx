@@ -31,33 +31,13 @@
     <?php include 'inc/header-inside.php'; ?>
     <?php include 'inc/nav-inside.php'; ?>
 
-<section id="the-content">
-    <h1>Brother GTX Direct to Garment Printer Multimedia Gallery</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <p>Interested in learning about how GTX can help you expand your business or even start a new one? Then this is place for you.  Fill out the form below to speak to a specialist or select any of the icons to watch demonstrations, read product information or gain valuable industry insights.</p>
-                <ul>
-                    <li>Download and Learn</li>
-                    <li>GTX Overview Brochure</li>
-                    <li>Why DTG Printing?</li>
-                    <li>Innobella Textile Inks</li>
-                    <li>History of Brother DTG</li>
-                    <li>GTX Cookbook</li>
-                    <li>GTX vs. GT-3 Print Speed</li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <ul>
-                    <li>Watch and Learn</li>
-                    <li>GTX Overview</li>
-                    <li>BIMH Video</li>
-                    <li>More Than Tees</li>
-                    <li>Graphix Lab Software</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<section id="the-content" class="row">
+
+
+  <?php include 'inc/media-form.php'; ?>
+
+
+
 </section>
 
 

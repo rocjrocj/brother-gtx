@@ -421,6 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 ul.inline {
   list-style: none;
   margin: 0 auto;
+  /*margin: 0;*/
   padding: 0;
   @include breakpoint(md) {
     /*width: 90%;*/
@@ -618,6 +619,8 @@ nav.inside {
   height: 44px;
   text-align: center;
   font-size: 17px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   @include breakpoint(md) {
     display: none;
   }
@@ -974,7 +977,7 @@ footer {
 }
 
 #the-content {
-  background: url('../images/int-bak-full.jpg') no-repeat center center;
+  background: url('../images/int-bak-full.jpg');
   h1, h2, h3, h5, h6 {
     color: #000;
   }
@@ -988,6 +991,14 @@ footer {
   /*display: flex;*/
   /*justify-content: space-around;*/
   padding: 50px 80px;
+  h2 {
+    padding: 0 0 30px 15px;
+    margin: 0;
+  }
+  p {
+    line-height: 30px;
+    font-size: 17px;
+  }
   .ben-benefits-item {
     /*padding: 20px 50px 20px 80px;*/
 
@@ -1037,11 +1048,102 @@ footer {
       background: #10accf;
       border: none;
       font-size: 18px;
-      font-weight: 500;
+      font-weight: 700;
       text-transform: uppercase;
       padding: 5px 10px 5px 15px;
     }
   }
+}
+
+.ben-benefits.media {
+  margin-bottom: 40px;
+  .align-bottom {
+    margin-top: 38px;
+    .learn {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      a {
+        color: #fff;
+      }
+      h5 {
+        background-color: #10accf;
+        color: #fff !important;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 2px 0;
+        padding: 15px;
+
+      }
+      ul {
+        list-style: none;
+        margin: 0 0 8px;
+        padding: 0;
+
+      }
+      li {
+        background: #232323;
+        margin: 2px 0;
+        padding: 15px;
+        position: relative;
+        span {
+
+          position: absolute;
+          width: 40px;
+          height: 50px;
+          top: 2px;
+          right: 1px;
+          background: #0e0e0e;
+          text-align: center;
+          color: #8c8888;
+        }
+        span.glyphicon {
+          /*padding: 8px 8px;
+          margin: 0 !important;*/
+          padding-top: 14px;
+        }
+
+      }
+    }
+  }
+  .watch {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    h5 {
+      background-color: #e2383c;
+      color: #fff !important;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 2px 0;
+      padding: 10px 15px;
+
+    }
+    img {
+      margin: 2px 0;
+
+    }
+  }
+}
+
+
+
+.ben-benefits.region {
+  text-align: center;
+  padding-bottom: 100px;
+  h2 {
+    font-size: 37px;
+    padding-bottom: 15px;
+  }
+  p {
+    width: 550px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+  .ben-benefits-container {
+     padding-right: 10px !important;
+   }
+
 }
 
 /*body#benefits {

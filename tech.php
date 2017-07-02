@@ -30,10 +30,12 @@
     <?php include 'inc/header-inside.php'; ?>
     <?php include 'inc/nav-inside.php'; ?>
 
-<section id="the-content">
-    <h2>Brother GTX Direct to Garment Printer Specifications</h2>
-    <p>The Brother GTX comes with technical sophistication and ease of use that you would expect from the next generation of garment printers plus more.  With GTX, print the most complicated and color-intense designs (including photographic imagery) faster and with more eye-popping resolution faster than ever before.</p>
 
+<section id="the-content" class="row">
+  <?php include 'inc/tech-form.php'; ?>
+
+
+</section>
 
 
 <section class="divider">Specifications</section>
@@ -178,7 +180,6 @@
 </div>
 
 
-</section>
 
 <?php include 'inc/hero-inside.php'; ?>
 <?php include 'inc/footer.php'; ?>

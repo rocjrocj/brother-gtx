@@ -32,9 +32,11 @@
     <?php include 'inc/header-inside.php'; ?>
     <?php include 'inc/nav-inside.php'; ?>
 
-    <?php include 'inc/benefits-form.php'; ?>
 
+    <section id="the-content" class="row">
+        <?php include 'inc/benefits-form.php'; ?>
 
+    </section>
 
 
 

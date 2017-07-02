@@ -30,10 +30,12 @@
     <?php include 'inc/header-inside.php'; ?>
     <?php include 'inc/nav-inside.php'; ?>
 
-<section id="the-content">
-    <h2>Connect with Brother DTG in your region</h2>
-    <p>Select your location from the map below to be directed to the Brother GTX Direct to Garment printer website for your area.</p>
-</section>
+
+
+    <section id="the-content" class="row">
+      <?php include 'inc/region-form.php'; ?>
+
+    </section>
 
 
 
