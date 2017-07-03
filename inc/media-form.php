@@ -5,7 +5,7 @@
 
 
 <div class="ben-benefits txt-left row media">
-    <h2>Brother GTX Direct to Garment Printer Multimedia Gallery</h2>
+    <h2 class="col-md-12">Brother GTX Direct to Garment Printer Multimedia Gallery</h2>
     <!--<div style="display: flex; flex-direction: column;">-->
     <div class="ben-benefits-container col-md-6 ben-benefits-item">
         <!--<h2>The Benefit of <strong>DTG Printing</strong></h2>-->

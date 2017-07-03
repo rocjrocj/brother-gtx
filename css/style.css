@@ -846,7 +846,8 @@ footer {
     margin: 0; }
     @media (max-width: 992px) {
       .ben-benefits h2 {
-        text-align: center; } }
+        text-align: center;
+        padding: 0 15px 30px 15px; } }
   .ben-benefits p {
     line-height: 30px;
     font-size: 17px; }
@@ -857,6 +858,9 @@ footer {
     /*padding: 20px 50px 20px 80px;*/ }
   .ben-benefits .ben-benefits-container {
     padding-right: 60px; }
+    @media (max-width: 992px) {
+      .ben-benefits .ben-benefits-container {
+        padding: 0 20px; } }
     .ben-benefits .ben-benefits-container h2 {
       margin: 0;
       padding: 0 0 25px; }
@@ -942,6 +946,9 @@ footer {
     justify-content: center;
     /*padding: 100px 150px;*/
     padding: 60px 0; }
+    @media (max-width: 992px) {
+      .the-txt .txt-left {
+        display: block; } }
     .the-txt .txt-left h3 {
       color: #d2d2d2; }
     .the-txt .txt-left p {
@@ -949,14 +956,25 @@ footer {
     .the-txt .txt-left .lft-container {
       width: 35%;
       margin-right: 30px; }
+      @media (max-width: 992px) {
+        .the-txt .txt-left .lft-container {
+          width: 80%;
+          margin: 0 0 0 50px; } }
     .the-txt .txt-left .rgt-container {
       width: 35%;
       margin-left: 30px; }
+      @media (max-width: 992px) {
+        .the-txt .txt-left .rgt-container {
+          width: 80%;
+          margin: 0 50px 0 0; } }
   .the-txt .txt-right {
     display: flex;
     justify-content: center;
     /*padding: 100px 150px;*/
     padding: 60px 0; }
+    @media (max-width: 992px) {
+      .the-txt .txt-right {
+        display: block; } }
     .the-txt .txt-right h3 {
       color: #484848; }
     .the-txt .txt-right p {
@@ -964,9 +982,17 @@ footer {
     .the-txt .txt-right .lft-container {
       width: 35%;
       margin-left: 30px; }
+      @media (max-width: 992px) {
+        .the-txt .txt-right .lft-container {
+          width: 80%;
+          margin: 0 0 0 50px; } }
     .the-txt .txt-right .rgt-container {
       width: 35%;
       margin-right: 30px; }
+      @media (max-width: 992px) {
+        .the-txt .txt-right .rgt-container {
+          width: 80%;
+          margin: 0 0 0 50px; } }
 
 #ben-do-more {
   background: url("../images/ben-fea2-bak.jpg"); }
@@ -983,21 +1009,35 @@ footer {
   background: url("../images/ben-fea6-bak.jpg");
   display: flex;
   justify-content: flex-start; }
+  @media (max-width: 992px) {
+    #ben-step3 {
+      display: block; } }
   #ben-step3 .lft-container {
     width: 50%;
     text-align: left;
     padding-left: 0;
     margin-left: 0; }
+    @media (max-width: 992px) {
+      #ben-step3 .lft-container {
+        width: 80%;
+        margin: 0 0 0 50px; } }
   #ben-step3 .rgt-container {
     width: 35%;
     margin-left: 60px;
     margin-right: 30px; }
+    @media (max-width: 992px) {
+      #ben-step3 .rgt-container {
+        width: 80%;
+        margin: 0 0 0 50px; } }
 
 #ben-step4 {
   background: url("../images/ben-fea8-bak.jpg"); }
 
 .ben-benefits.media {
   margin-bottom: 40px; }
+  @media (max-width: 992px) {
+    .ben-benefits.media {
+      /*width: 90%;*/ } }
   .ben-benefits.media .align-bottom {
     margin-top: 38px; }
     .ben-benefits.media .align-bottom .learn {
@@ -1013,6 +1053,9 @@ footer {
         font-weight: 700;
         margin: 2px 0;
         padding: 15px; }
+        @media (max-width: 992px) {
+          .ben-benefits.media .align-bottom .learn h5 {
+            /*padding: 65px;*/ } }
       .ben-benefits.media .align-bottom .learn ul {
         list-style: none;
         margin: 0 0 8px;
