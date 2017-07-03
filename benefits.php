@@ -42,9 +42,9 @@
 
 
 
-
+<div class="the-txt row">
     <section id="ben-do-more" class="txt-left">
-        <div class="ben-do-more-container">
+        <div class="lft-container">
             <h3>Do More with DTG Printing</h3>
             <p>Let technology take the place of costly labor and lengthy skills training. With DTG printing, a single person can take an order, print the items and prep everything for delivery before quickly moving on to the next job.</p>
             <ul>
@@ -57,20 +57,20 @@
                 <li>Easier set up and smaller space requirements</li>
             </ul>
         </div>
-        <div class="ben-do-more-img-container">
+        <div class="rgt-container">
             <img src="images/ben-fea2-img.png" width="665" alt="" class="img-responsive center-block">
         </div>
     </section>
 
-    <section class="ben-hea">
-        <h2>The Process of DTG Printing</h2>
-    </section>
+    <div class="ben-hea">
+        <h3>The Process of DTG Printing</h3>
+    </div>
 
     <section id="ben-step1" class="txt-right">
-        <div class="ben-step1-img-container">
-            <img src="images/tech-img.png" width="598" alt="" class="img-responsive">
+        <div class="lft-container">
+            <img src="images/ben-fea3-img.png" width="502" alt="" class="img-responsive">
         </div>
-        <div class="ben-step1-container">
+        <div class="rgt-container">
             <h3>Step 1 – Pretreat and Cure the Garment</h3>
             <p>When printing with white ink, use any Brother-recommended pre-treatment machine to prep the fabric to receive the ink. Use either a heat press or dryer to cure the pretreatment solution and ensure a flat printing surface. </p>
 
@@ -79,12 +79,13 @@
 
 
     <section id="ben-step2" class="txt-left">
-        <div class="ben-step2-container">
-            <h3>Step 2 - Prepare the Digital Artg</h3>
+        <div class="lft-container">
+            <h3>Step 2 - Prepare the Digital Art</h3>
             <p>Load your artwork into your graphic software program of Graphix Lab software to position the image, rotate the angle, add text or make other adjustments before sending the file to print using the GTX print driver.</p>
+            <div class="ben-btn"><a href="">Graphix Lab Software <i class="glyphicon glyphicon-triangle-right"></i></a></div>
         </div>
-        <div class="ben-step2-img-container">
-            <img src="images/ben-fea2-img.png" width="665" alt="" class="img-responsive center-block">
+        <div class="rgt-container">
+            <img src="images/ben-fea4-img.png" width="395" alt="" class="img-responsive center-block">
         </div>
     </section>
 
@@ -93,26 +94,28 @@
 
 
     <section id="ben-step3" class="txt-right">
-        <div class="ben-step3-img-container">
-            <img src="images/tech-img.png" width="598" alt="" class="img-responsive">
+        <div class="lft-container">
+            <img src="images/ben-fea5-img.png" width="607" alt="" class="img-responsive">
         </div>
-        <div class="ben-step3-container">
+        <div class="rgt-container">
             <h3>Step 3 – Printing on the Garment</h3>
             <p>Load the shirt, hoodie, hat, shoe of whatever you are printing to the platen and press the print button.  </p>
+            <div class="ben-btn"><a href="">More Than Tees <i class="glyphicon glyphicon-triangle-right"></i></a></div>
 
         </div>
     </section>
 
 
     <section id="ben-step4" class="txt-left">
-        <div class="ben-step4-container">
+        <div class="lft-container">
             <h3>Step 4 – Cure the Ink on the Garment</h3>
             <p>Place the printed garment on to the heat press once again or in a forced air dryer to cure the ink. This will ensure the ink is fully cured to the garment and will have the desired washability.</p>
         </div>
-        <div class="ben-step4-img-container">
-            <img src="images/ben-fea2-img.png" width="665" alt="" class="img-responsive center-block">
+        <div class="rgt-container">
+            <img src="images/ben-fea6-img.png" width="580" alt="" class="img-responsive center-block">
         </div>
     </section>
+</div>
 
 
 
@@ -133,5 +136,6 @@
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>

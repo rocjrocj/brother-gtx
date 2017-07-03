@@ -38,16 +38,139 @@
 </section>
 
 
-<section class="divider">Specifications</section>
+<section class="specs-container row">
 
-<section class="divider">Software</section>
+
+    <section class="the-specs">
+
+    <h3>Specifications</h3>
+
+    <div class="spec-container">
+        <div class="spec-item">Printing Method</div>
+        <div class="spec-data col-md-9z">Direct inkjet garment printer</div>
+    </div>
+
+
+
+    <div class="spec-container">
+        <div class="spec-item">Machine Size</div>
+        <div class="spec-data">
+            55"(W) x 51"(D) x 21"(H) (1400mm x 1290mm x 535mm)
+            <div><img src="images/specs1.png" alt="" width="344" class="img-responsive center-block"></div>
+        </div>
+    </div>
+
+
+    <div class="spec-container">
+        <div class="spec-item">Machine Weight</div>
+        <div class="spec-data">260lb (approx.118kg)</div>
+    </div>
+
+
+    <div class="spec-container">
+        <div class="spec-item">Platen Sizes <p class="spec-sm">Maximum print size is 16" x 21" / 40,6cm x 53,3cm</p></div>
+        <div class="spec-data">
+            <div class="platen-container">
+            <div class="platen">
+                <img src="images/specs-adult-p.png" alt="" width="195" class="img-responsive center-block">
+                <h5>Adult Platen</h5>  <div class="spec-sm">14” x 16” / 35,6cm x 40,6cm</div>
+            </div>
+            <div class="platen">
+                <img src="images/specs-youth-p.png" alt="" width="178" class="img-responsive center-block">
+                <h5>Youth Platen</h5>  <div class="spec-sm">10” x 12” / 25,4cm x 30,5cm</div>
+            </div>
+            <div class="platen">
+                <img src="images/specs-baby-p.png" alt="" width="155" class="img-responsive center-block">
+                <h5>Baby Platen</h5>  <div class="spec-sm">7” x 8” / 17,8cm x 20,3cm</div>
+            </div>
+            </div>
+            <div class="spec-sm">For a list of all available platen sizes, contact a Brother DTG Specialist.</div>
+        </div>
+    </div>
+
+
+    <div class="spec-container">
+        <div class="spec-item">Ink Type  </div>
+        <div class="spec-data">
+            Water based pigment ink
+            <img src="images/specs-cmyk.png" alt="" width="488" class="img-responsive center-block">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="spec-container">
+        <div class="spec-item">Ink-Head Type</div>
+        <div class="spec-data">On demand piezo head
+            <img src="images/specs-print-head.png" alt="" width="188" class="img-responsive center-block"></div>
+    </div>
+
+
+    <div class="spec-container">
+        <div class="spec-item">Number of Ink-Heads</div>
+        <div class="spec-data">2 print heads / 8 ink channels</div>
+    </div>
+
+
+    <div class="spec-container">
+        <div class="spec-item">Print Resolution</div>
+        <div class="spec-data">1200 dpi x 1200 dpi</div>
+    </div>
+
+
+    <div class="spec-container">
+        <div class="spec-item">Print Mode </div>
+        <div class="spec-data">Single or double for CMYK. Underbase and highlight for white.</div>
+    </div>
+
+    <div class="spec-container">
+        <div class="spec-item">Enviroment</div>
+        <div class="spec-data">
+            <img src="images/specs-thermoms.png" alt="" width="688" class="no-p img-responsive center-block"></div>
+    </div>
+
+    <div class="spec-container">
+        <div class="spec-item">Data Output</div>
+        <div class="spec-data">Printer driver (USB, File output)</div>
+    </div>
+
+    <div class="spec-container">
+        <div class="spec-item">Power Supply</div>
+        <div class="spec-data">AC 100V-240V, 50/60Hz ± 1Hz</div>
+    </div>
+
+    <div class="spec-container">
+        <div class="spec-item">Power Consumption  </div>
+        <div class="spec-data">0.8A (average) (Reference: 0.3A - during circulation)</div>
+    </div>
+     
+    <div class="spec-container">
+        <div class="spec-item">Ink Cure</div>
+        <div class="spec-data">Heat press machine can be used at 356°F (180°C) and 35 seconds duration. For higher volume production, a conveyor oven is recommended to be used at 320° (160°) for three and a half minutes. Time and temperature may vary
+            depending on which manufacturer's dryer is used.
+
+            <img src="images/specs-end.png" alt="" width="394" class="img-responsive center-block"></div>
+    </div>
+
+    <div class="spec-container">
+        <div class="spec-item">Pre-Treatment</div>
+        <div class="spec-data">Before printing, apply pre-treatment using either a manual or automatic device and then dry garment using a heat-press, being sure to follow all manufacturer's instructions. Pre-treatment is necessary for white ink. </div>
+    </div>
+    </section>
+
+
+    <section class="software">
+
+        <h3>Software</h3>
 
 
 
 <div class="spec-container">
     <div class="spec-item">OS</div>
-    <div class="spec-data"Windows® 7(32 bit/64 bit), Windows 8.1(32 bit/64 bit) , Windows 10(32 bit/64 bit),
-    Mac OS® X v10.10.x></div>
+    <div class="spec-data">Windows® 7(32 bit/64 bit), Windows 8.1(32 bit/64 bit) , Windows 10(32 bit/64 bit),
+    Mac OS® X v10.10.x</div>
 </div>
 
 
@@ -69,116 +192,14 @@
 <div class="spec-container">
     <div class="spec-item">Recommended
         Applications</div>
-    <div class="spec-data">CorelDRAW® X6/X7, Adobe® Photoshop CS6/CC, Adobe® Illustrator CS6/CC, Adobe® Photoshop Elements 12/13</div>
+    <div class="spec-data">CorelDRAW® X6/X7, Adobe® Photoshop CS6/CC, Adobe® Illustrator CS6/CC, Adobe® Photoshop Elements 12/13
+
+        <img src="images/specs-graphix-logo.png" alt="" width="74"></div>
 </div>
 
-<div class="spec-container">
-    <div class="spec-item"></div>
-    <div class="spec-data"></div>
-</div>
+</section>
 
-<div class="spec-container">
-    <div class="spec-item"></div>
-    <div class="spec-data"></div>
-</div>
-
-
-
-<section class="the-specs"></section>
-
-<div class="spec-container">
-    <div class="spec-item">Printing Method</div>
-    <div class="spec-data">Direct inkjet garment printer</div>
-</div>
-
-
-
-<div class="spec-container">
-    <div class="spec-item">Machine Size</div>
-    <div class="spec-data">55"(W) x 51"(D) x 21"(H) (1400mm x 1290mm x 535mm)</div>
-</div>
-
-
-<div class="spec-container">
-    <div class="spec-item">Machine Weight</div>
-    <div class="spec-data">260lb (approx.118kg)</div>
-</div>
-
-
-<div class="spec-container">
-    <div class="spec-item">Platen Sizes Maximum print size is 16" x 21" / 40,6cm x 53,3cm</div>
-    <div class="spec-data">Adult Platen  14” x 16” / 35,6cm x 40,6cm  Youth Platen  10” x 12” / 25,4cm x 30,5cm  Baby Platen  7” x 8” / 17,8cm x 20,3cm For a list of all available platen sizes, contact a Brother DTG Specialist.</div>
-</div>
-
-
-<div class="spec-container">
-    <div class="spec-item">Ink Type  </div>
-    <div class="spec-data">Water based pigment ink</div>
-</div>
-
-
-
-
-
-<div class="spec-container">
-    <div class="spec-item">Ink-Head Type</div>
-    <div class="spec-data">On demand piezo head</div>
-</div>
-
-
-<div class="spec-container">
-    <div class="spec-item">Number of Ink-Heads</div>
-    <div class="spec-data">2 print heads / 8 ink channels</div>
-</div>
-
-
-<div class="spec-container">
-    <div class="spec-item">Print Resolution</div>
-    <div class="spec-data">1200 dpi x 1200 dpi</div>
-</div>
-
-
-<div class="spec-container">
-    <div class="spec-item">Print Mode </div>
-    <div class="spec-data">Single or double for CMYK. Underbase and highlight for white.</div>
-</div>
-
-<div class="spec-container">
-    <div class="spec-item">Enviroment</div>
-    <div class="spec-data"></div>
-</div>
-
-<div class="spec-container">
-    <div class="spec-item">Data Output</div>
-    <div class="spec-data">Printer driver (USB, File output)</div>
-</div>
-
-<div class="spec-container">
-    <div class="spec-item">Power Supply</div>
-    <div class="spec-data">AC 100V-240V, 50/60Hz ± 1Hz</div>
-</div>
-
-<div class="spec-container">
-    <div class="spec-item">Power Consumption  </div>
-    <div class="spec-data">0.8A (average) (Reference: 0.3A - during circulation)</div>
-</div>
- 
-<div class="spec-container">
-    <div class="spec-item">Ink Cure</div>
-    <div class="spec-data">Heat press machine can be used at 356°F (180°C) and 35 seconds duration. For higher volume production, a conveyor oven is recommended to be used at 320° (160°) for three and a half minutes. Time and temperature may vary
-        depending on which manufacturer's dryer is used.</div>
-</div>
-
-<div class="spec-container">
-    <div class="spec-item"></div>
-    <div class="spec-data"></div>
-</div>
-
-<div class="spec-container">
-    <div class="spec-item">Pre-Treatment</div>
-    <div class="spec-data">Before printing, apply pre-treatment using either a manual or automatic device and then dry garment using a heat-press, being sure to follow all manufacturer's instructions. Pre-treatment is necessary for white ink. </div>
-</div>
-
+</section>
 
 
 <?php include 'inc/hero-inside.php'; ?>
@@ -190,5 +211,6 @@
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>

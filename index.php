@@ -29,9 +29,10 @@
 <div class="container gtx">
 
 
-    <div class="hamburger"><i class="glyphicon glyphicon-menu-hamburger"></i></div>
+    <div class="hamburger"><a href="#" id="show-menu"><i class="glyphicon glyphicon-menu-hamburger"></i></a></div>
+  <?php include 'inc/nav-mobile.php'; ?>
 
-    <section id="hero">
+    <section id="hero" class="row">
         <img src="images/gtx-logo.png" alt="GTX Logo" width="158">
         <h1>The <strong>X</strong> factor for your garment printing business</h1>
         <img src="images/gtx-printer-hero.png" alt="The new Brother GTX Direct to garment printer" width="713" class="img-responsive center-block">
@@ -41,13 +42,13 @@
     <?php include 'inc/nav-home.php'; ?>
 
 
-    <section id="feature">
+    <section id="feature" class="row">
         <h3>Print like you never have before with the next generation in direct to garment printers, <strong>GTX</strong>. With an accelerated print speed, seamless design, lower maintenance, and a robust amount of amazing features, GTX takes conventional DTG printing to the next level.</h3>
         <img src="images/home-feature-img.png" width="751" alt="" class="img-responsive center-block">
     </section>
 
 
-    <section id="benefits">
+    <section id="benefits" class="row">
                 <div class="benefits-container">
                     <h2>Benefits of <strong>DTG</strong></h2>
                     <p>Easy customization. Flexible quantities. Quick output. Expanded product offerings. These are just a
@@ -61,7 +62,7 @@
 
 
 
-    <section id="tech-specs">
+    <section id="tech-specs" class="row">
         <!--<div class="container">
             <div class="row">-->
         <div class="tech-img-container">
@@ -76,7 +77,7 @@
             <!--</div>
         </div>-->
     </section>
-    <section id="media">
+    <section id="media" class="row">
         <!--<div class="container">
             <div class="row">-->
         <div class="media-container">
@@ -92,7 +93,7 @@
             <!--</div>
         </div>-->
     </section>
-    <section id="region">
+    <section id="region" class="row">
         <!--<div class="container">
             <div class="row">-->
         <div class="region-container">
@@ -115,5 +116,6 @@
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>

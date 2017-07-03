@@ -2,7 +2,7 @@
 
 
 <!--<div class="hamburger"><i class="glyphicon glyphicon-menu-hamburger"></i></div>-->
-<nav class="home">
+<nav class="home row">
     <div class="container">
         <div class="row">
             <ul>
