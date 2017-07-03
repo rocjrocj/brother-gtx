@@ -1476,6 +1476,7 @@ width: auto;
       @include breakpoint(md) {
         display: block;
         text-align: center;
+        padding: 30px 20px;
       }
       div {
 
@@ -1499,8 +1500,9 @@ width: auto;
         margin: 2px 0 0 0;
         padding: 0;
         @include breakpoint(md) {
-          width: 50%;
+          width: 90%;
           padding-bottom: 20px;
+          margin: 0 auto;
         }
       }
       .spec-data {
@@ -1510,7 +1512,8 @@ width: auto;
         margin: 0;
         padding: 0;
         @include breakpoint(md) {
-          width: 50%
+          width: 90%;
+          margin: 0 auto;
         }
         img {
           display: block;

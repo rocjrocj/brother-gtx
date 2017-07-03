@@ -1196,7 +1196,8 @@ footer {
     @media (max-width: 992px) {
       .specs-container .spec-container {
         display: block;
-        text-align: center; } }
+        text-align: center;
+        padding: 30px 20px; } }
     .specs-container .spec-container div {
       margin: 0;
       padding: 0; }
@@ -1217,8 +1218,9 @@ footer {
       padding: 0; }
       @media (max-width: 992px) {
         .specs-container .spec-container .spec-item {
-          width: 50%;
-          padding-bottom: 20px; } }
+          width: 90%;
+          padding-bottom: 20px;
+          margin: 0 auto; } }
     .specs-container .spec-container .spec-data {
       width: 70%;
       flex: none;
@@ -1227,7 +1229,8 @@ footer {
       padding: 0; }
       @media (max-width: 992px) {
         .specs-container .spec-container .spec-data {
-          width: 50%; } }
+          width: 90%;
+          margin: 0 auto; } }
       .specs-container .spec-container .spec-data img {
         display: block;
         padding-top: 20px; }
