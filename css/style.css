@@ -169,6 +169,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .brother-logo-header {
   padding: 10px 0 10px 60px; }
+  @media (max-width: 992px) {
+    .brother-logo-header {
+      padding: 10px 0 10px 0; } }
 
 .brother-region {
   /*float: right;*/
@@ -268,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
       position: absolute;
       color: #ccc;
       top: 10px;
-      right: 25px;
+      right: 20px;
       font-size: 22px;
       z-index: 999;
       display: none; }
@@ -436,7 +439,7 @@ header {
       #hero-int h1 {
         font-size: 22px;
         line-height: 28px;
-        padding: 35px 0 30px; } }
+        padding: 35px 20px 30px 20px; } }
   #hero-int img {
     /*max-width: 713px;*/
     margin-bottom: 44px; }
@@ -835,8 +838,11 @@ footer {
   /*display: flex;*/
   /*justify-content: space-around;*/
   padding: 50px 80px; }
+  @media (max-width: 992px) {
+    .ben-benefits {
+      padding: 50px 30px; } }
   .ben-benefits h2 {
-    padding: 0 0 30px 15px;
+    padding: 0 0 30px 0;
     margin: 0; }
     @media (max-width: 992px) {
       .ben-benefits h2 {
@@ -864,7 +870,8 @@ footer {
     background-color: #1c1d1d;
     border-radius: 5px;
     margin: 0;
-    padding: 15px; }
+    padding: 15px;
+    text-align: left; }
     .ben-benefits .ben-benefits-form-container h4 {
       font-size: 20px;
       color: #dfdfdf;
@@ -882,6 +889,8 @@ footer {
       border-radius: 2px; }
       .ben-benefits .ben-benefits-form-container .btn span {
         margin-left: 70px; }
+        .ben-benefits .ben-benefits-form-container .btn span.region-btn {
+          margin-left: 15px; }
     .ben-benefits .ben-benefits-form-container .btn-default {
       color: #fff;
       background: #10accf;
@@ -1047,6 +1056,9 @@ footer {
 .ben-benefits.region {
   text-align: center;
   padding-bottom: 100px; }
+  @media (max-width: 992px) {
+    .ben-benefits.region {
+      padding-bottom: 60px; } }
   .ben-benefits.region h2 {
     font-size: 37px;
     padding-bottom: 15px; }
@@ -1068,6 +1080,18 @@ footer {
   margin-right: auto;
   margin-left: auto;
   font-size: 16px !important; }
+  .modal-content.lang {
+    width: 440px;
+    height: 440px; }
+    .modal-content.lang ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 0 28px; }
+      .modal-content.lang ul li {
+        padding: 0;
+        margin: 0; }
+    .modal-content.lang a {
+      color: #dfdfdf; }
 
 .modal-header {
   border-bottom: 1px solid #444545;
@@ -1100,14 +1124,14 @@ footer {
 .map-sa a {
   color: #00bfe5; }
 
-.circle {
+/*.circle {
   border-radius: 50%;
   width: 14px;
   height: 14px;
   background-color: red;
   float: none;
-  /* width and height can be anything, as long as they're equal */ }
-
+  !* width and height can be anything, as long as they're equal *!
+}*/
 .specs-container {
   background-color: #e2e2e2; }
   .specs-container h3 {
@@ -1124,7 +1148,8 @@ footer {
   .specs-container .spec-container {
     border-bottom: 2px solid #d4d3d3 !important;
     display: flex;
-    padding: 50px 140px; }
+    padding: 50px 140px;
+    text-align: left; }
     @media (max-width: 992px) {
       .specs-container .spec-container {
         display: block;
@@ -1186,6 +1211,26 @@ footer {
         @media (max-width: 992px) {
           .specs-container .spec-container .spec-data .platen-container .platen {
             margin-bottom: 40px; } }
+
+.swiper-container {
+  width: 80%;
+  height: 190px; }
+  .swiper-container .swiper-button-prev {
+    top: 20%; }
+  .swiper-container .swiper-button-next {
+    top: 20%; }
+
+.chev {
+  position: relative;
+  width: 100%; }
+  .chev .chev-left {
+    position: absolute;
+    top: 30px;
+    left: -30px; }
+  .chev .chev-right {
+    position: absolute;
+    top: 30px;
+    right: 100px; }
 
 /*body#benefits {
 

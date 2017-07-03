@@ -17,7 +17,7 @@
         <div class="col-md-9">
             <div class="bro-rgt pull-right">
             <div class="brother-region" align="right">
-                <span id="ctl00_ContentPlaceHolder1_lblCulture" class="region">U.S.A.</span>|<a href="//www.brother.com/brgnet2/" id="ctl00_ContentPlaceHolder1_aGlobalNetwork" class="global-network" target="_blank" rel="lightbox_sa">Global&nbsp;Network</a>
+               <a href="#" id="ctl00_ContentPlaceHolder1_aGlobalNetwork" class="global-network" data-toggle="modal" data-target="#mLanguage">Select your language</a>
             </div>
             <div class="globalHeaderSearch">
                 <form id="globalSearchForm" method="GET" action="http://brotherdtg.com/search-results.html">
@@ -59,3 +59,31 @@
         </div>-->
 
 </section>
+<!-- Modal Select Language -->
+<div class="modal fade" id="mLanguage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content lang">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel"><img src="images/li-lang.png" width="14" alt=""> Choose your language</h4>
+            </div>
+            <div class="modal-body map-na">
+                <ul>
+                    <li><a href=""><strong>Chinese</strong> (Traditional)</a></li>
+                    <li><a href=""><strong>English</strong> (Americas)</a></li>
+                    <li><a href=""><strong>English</strong> (Australia)</a></li>
+                    <li><a href=""><strong>English</strong> (Europe)</a></li>
+                    <li><a href=""><strong>French</strong></a></li>
+                    <li><a href=""><strong>German</strong></a></li>
+                    <li><a href=""><strong>Italian</strong></a></li>
+                    <li><a href=""><strong>Japanese</strong></a></li>
+                    <li><a href=""><strong>Korean</strong></a></li>
+                    <li><a href=""><strong>Russian</strong></a></li>
+                    <li><a href=""><strong>Spanish</strong> (Americas)</a></li>
+                    <li><a href=""><strong>Spanish</strong> (Europe)</a></li>
+                    <li><a href=""><strong>Thai</strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -44,7 +44,7 @@
 
     <section id="feature" class="row">
         <h3>Print like you never have before with the next generation in direct to garment printers, <strong>GTX</strong>. With an accelerated print speed, seamless design, lower maintenance, and a robust amount of amazing features, GTX takes conventional DTG printing to the next level.</h3>
-        <img src="images/home-feature-img.png" width="751" alt="" class="img-responsive center-block">
+        <img src="images/home-feature-img.png" width="728" alt="" class="img-responsive center-block">
     </section>
 
 
@@ -56,7 +56,7 @@
                     <div class="but"><a href=""><strong>Explore</strong> more of benefits of DTG printing <i class="glyphicon glyphicon-menu-right"></i></a></div>
                 </div>
                 <div class="benefits-img-container">
-                    <img src="images/home-benefits-img.png" width="665" alt="" class="img-responsive center-block">
+                    <img src="images/home-benefits-img.png" width="630" alt="" class="img-responsive center-block">
                 </div>
     </section>
 
@@ -106,6 +106,8 @@
             <!--</div>
         </div>-->
     </section>
+
+
 
     <?php include 'inc/footer.php'; ?>
 

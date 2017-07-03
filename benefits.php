@@ -22,15 +22,15 @@
 <body>
 
 
-<!--<div class="container">
-    <?php /*include 'inc/bro-header.php'; */?>
-</div>-->
+<div class="container">
+    <?php include 'inc/bro-header.php'; ?>
+</div>
 
 
 <div class="container gtx">
 
     <?php include 'inc/header-inside.php'; ?>
-    <?php include 'inc/nav-inside.php'; ?>
+    <?php include 'inc/nav-inside-benefits.php'; ?>
 
 
     <section id="the-content" class="row">
@@ -72,7 +72,7 @@
         </div>
         <div class="rgt-container">
             <h3>Step 1 – Pretreat and Cure the Garment</h3>
-            <p>When printing with white ink, use any Brother-recommended pre-treatment machine to prep the fabric to receive the ink. Use either a heat press or dryer to cure the pretreatment solution and ensure a flat printing surface. </p>
+            <p>When printing with white ink, apply the proper amount of pretreat depending on the garment preferably with a Brother-recommended pre-treatment machine for optimal results. Then simply cure the pretreat solution with either a heat press or dryer to ensure a flat printing surface.</p>
 
         </div>
     </section>
@@ -81,7 +81,7 @@
     <section id="ben-step2" class="txt-left">
         <div class="lft-container">
             <h3>Step 2 - Prepare the Digital Art</h3>
-            <p>Load your artwork into your graphic software program of Graphix Lab software to position the image, rotate the angle, add text or make other adjustments before sending the file to print using the GTX print driver.</p>
+            <p>Load your artwork into our new graphics software Graphix Lab software. Graphix Lab allows you to position the image, add text, distress layers and make other adjustments to your image before sending the file to print using the GTX print driver. Optionally, you can also print directly from your own graphics software.</p>
             <div class="ben-btn"><a href="">Graphix Lab Software <i class="glyphicon glyphicon-triangle-right"></i></a></div>
         </div>
         <div class="rgt-container">
@@ -99,7 +99,7 @@
         </div>
         <div class="rgt-container">
             <h3>Step 3 – Printing on the Garment</h3>
-            <p>Load the shirt, hoodie, hat, shoe of whatever you are printing to the platen and press the print button.  </p>
+            <p>Dress the platen with your desired garment or substrate and press print.</p>
             <div class="ben-btn"><a href="">More Than Tees <i class="glyphicon glyphicon-triangle-right"></i></a></div>
 
         </div>

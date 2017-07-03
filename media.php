@@ -21,15 +21,15 @@
 <body>
 
 
-<!--<div class="container">
-    <?php /*include 'inc/bro-header.php'; */?>
-</div>-->
+<div class="container">
+    <?php include 'inc/bro-header.php'; ?>
+</div>
 
 
 <div class="container gtx">
 
     <?php include 'inc/header-inside.php'; ?>
-    <?php include 'inc/nav-inside.php'; ?>
+    <?php include 'inc/nav-inside-media.php'; ?>
 
 <section id="the-content" class="row">
 

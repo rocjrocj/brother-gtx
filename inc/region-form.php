@@ -38,7 +38,7 @@
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-default">
-                    Let's Get Started <span class="glyphicon glyphicon-envelope"></span>
+                    Let's Get Started <span class="glyphicon glyphicon-envelope region-btn"></span>
                 </button>
             </div>
         </form>

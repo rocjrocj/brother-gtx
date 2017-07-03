@@ -221,7 +221,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .brother-logo-header {
-  padding: 10px 0 10px 60px
+  padding: 10px 0 10px 60px;
+  @include breakpoint(md) {
+    padding: 10px 0 10px 0;
+  }
 }
 
 .brother-region {
@@ -345,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
       position: absolute;
       color: #ccc;
       top: 10px;
-      right: 25px;
+      right: 20px;
       font-size: 22px;
       z-index: 999;
       display: none;
@@ -550,7 +553,7 @@ header {
     @include breakpoint(md) {
       font-size: 22px;
       line-height: 28px;
-      padding: 35px 0 30px;
+      padding: 35px 20px 30px 20px;
     }
   }
   img {
@@ -1033,8 +1036,11 @@ footer {
   /*display: flex;*/
   /*justify-content: space-around;*/
   padding: 50px 80px;
+  @include breakpoint(md) {
+    padding: 50px 30px;
+  }
   h2 {
-    padding: 0 0 30px 15px;
+    padding: 0 0 30px 0;
     margin: 0;
     @include breakpoint(md) {
       text-align: center;
@@ -1073,6 +1079,7 @@ footer {
     border-radius: 5px;
     margin: 0;
     padding: 15px;
+    text-align: left;
     h4 {
       font-size: 20px;
       color: #dfdfdf;
@@ -1094,6 +1101,9 @@ footer {
       border-radius: 2px;
       span {
         margin-left: 70px;
+        &.region-btn {
+          margin-left: 15px;
+        }
       }
     }
     .btn-default {
@@ -1310,6 +1320,9 @@ width: auto;
 .ben-benefits.region {
   text-align: center;
   padding-bottom: 100px;
+  @include breakpoint(md) {
+    padding-bottom: 60px;
+  }
   h2 {
     font-size: 37px;
     padding-bottom: 15px;
@@ -1336,6 +1349,23 @@ width: auto;
   margin-right: auto;
   margin-left: auto;
   font-size: 16px !important;
+  &.lang {
+    width: 440px;
+    height: 440px;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 0 28px;
+      li {
+        padding: 0;
+        margin: 0;
+      }
+    }
+    a {
+      color: #dfdfdf;
+    }
+
+  }
 }
 .modal-header {
   border-bottom: 1px solid #444545;
@@ -1371,14 +1401,14 @@ width: auto;
 .map-sa a {
   color: #00bfe5;
 }
-.circle {
+/*.circle {
   border-radius: 50%;
   width: 14px;
   height: 14px;
   background-color: red;
   float: none;
-  /* width and height can be anything, as long as they're equal */
-}
+  !* width and height can be anything, as long as they're equal *!
+}*/
 
 .specs-container {
   background-color: #e2e2e2;
@@ -1398,6 +1428,7 @@ width: auto;
       border-bottom: 2px solid #d4d3d3 !important;
       display: flex;
       padding: 50px 140px;
+      text-align: left;
       @include breakpoint(md) {
         display: block;
         text-align: center;
@@ -1479,7 +1510,33 @@ width: auto;
 }
 
 
+.swiper-container {
+  width: 80%;
+  height: 190px;
+  .swiper-button-prev {
+    top: 20%;
+  }
+  .swiper-button-next {
+    top: 20%;
 
+  }
+}
+
+.chev {
+  position: relative;
+  width: 100%;
+  .chev-left {
+
+    position: absolute;
+    top: 30px;
+    left: -30px;
+  }
+  .chev-right {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+  }
+}
 
 
 /*body#benefits {

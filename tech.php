@@ -7,6 +7,7 @@
     <title>Brother GTX</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
     <!-- Custom CSS -->
     <!--<link href="css/bro-header.css" rel="stylesheet">-->
     <link href="css/style.css" rel="stylesheet">
@@ -20,15 +21,15 @@
 </head>
 <body>
 
-<!--<div class="container">
-    <?php /*include 'inc/bro-header.php'; */?>
-</div>-->
+<div class="container">
+    <?php include 'inc/bro-header.php'; ?>
+</div>
 
 
 <div class="container gtx">
 
     <?php include 'inc/header-inside.php'; ?>
-    <?php include 'inc/nav-inside.php'; ?>
+    <?php include 'inc/nav-inside-tech.php'; ?>
 
 
 <section id="the-content" class="row">
@@ -56,7 +57,7 @@
         <div class="spec-item">Machine Size</div>
         <div class="spec-data">
             55"(W) x 51"(D) x 21"(H) (1400mm x 1290mm x 535mm)
-            <div><img src="images/specs1.png" alt="" width="344" class="img-responsive center-block"></div>
+            <div><img src="images/specs1.png" alt="" width="344" class="img-responsive"></div>
         </div>
     </div>
 
@@ -70,20 +71,90 @@
     <div class="spec-container">
         <div class="spec-item">Platen Sizes <p class="spec-sm">Maximum print size is 16" x 21" / 40,6cm x 53,3cm</p></div>
         <div class="spec-data">
-            <div class="platen-container">
+            <!--<div class="platen-container">
             <div class="platen">
-                <img src="images/specs-adult-p.png" alt="" width="195" class="img-responsive center-block">
+                <img src="images/specs-adult-p.png" alt="" width="195" class="img-responsive">
                 <h5>Adult Platen</h5>  <div class="spec-sm">14” x 16” / 35,6cm x 40,6cm</div>
             </div>
             <div class="platen">
-                <img src="images/specs-youth-p.png" alt="" width="178" class="img-responsive center-block">
+                <img src="images/specs-youth-p.png" alt="" width="178" class="img-responsive">
                 <h5>Youth Platen</h5>  <div class="spec-sm">10” x 12” / 25,4cm x 30,5cm</div>
             </div>
             <div class="platen">
-                <img src="images/specs-baby-p.png" alt="" width="155" class="img-responsive center-block">
+                <img src="images/specs-baby-p.png" alt="" width="155" class="img-responsive">
                 <h5>Baby Platen</h5>  <div class="spec-sm">7” x 8” / 17,8cm x 20,3cm</div>
             </div>
+            </div>-->
+
+            <div class="chev">
+                <div>
+                    <a href=""><i class="glyphicon glyphicon-chevron-left chev-left"></i></a>
+                </div>
             </div>
+            <div class="chev">
+                <div>
+                    <a href=""><i class="glyphicon glyphicon-chevron-right chev-right"></a></i>
+                </div>
+            </div>
+
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="platen-container">
+                            <div class="platen">
+                                <img src="images/specs-adult-p.png" alt="" width="195" class="img-responsive">
+                                <h5>Adult Platen</h5>  <div class="spec-sm">14” x 16” / 35,6cm x 40,6cm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="platen-container"><div class="platen">
+                            <img src="images/specs-youth-p.png" alt="" width="178" class="img-responsive">
+                            <h5>Youth Platen</h5>  <div class="spec-sm">10” x 12” / 25,4cm x 30,5cm</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="platen-container"><div class="platen">
+                            <img src="images/specs-baby-p.png" alt="" width="155" class="img-responsive">
+                            <h5>Baby Platen</h5>  <div class="spec-sm">7” x 8” / 17,8cm x 20,3cm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="platen-container">
+                            <div class="platen">
+                                <img src="images/platen-oversized.png" alt="" width="80" class="img-responsive">
+                                <h5>Oversized Platen</h5>  <div class="spec-sm">16” x 18” / 40,6cm x 45,7cm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="platen-container"><div class="platen">
+                                <img src="images/platen-sleeve.png" alt="" width="70" class="img-responsive">
+                                <h5>Sleeve Platen</h5>  <div class="spec-sm">4.25” x 15” / 10,8cm x 38,1cm</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <!--<div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>-->
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+
+
             <div class="spec-sm">For a list of all available platen sizes, contact a Brother DTG Specialist.</div>
         </div>
     </div>
@@ -93,7 +164,7 @@
         <div class="spec-item">Ink Type  </div>
         <div class="spec-data">
             Water based pigment ink
-            <img src="images/specs-cmyk.png" alt="" width="488" class="img-responsive center-block">
+            <img src="images/specs-cmyk.png" alt="" width="488" class="img-responsive">
         </div>
     </div>
 
@@ -104,7 +175,7 @@
     <div class="spec-container">
         <div class="spec-item">Ink-Head Type</div>
         <div class="spec-data">On demand piezo head
-            <img src="images/specs-print-head.png" alt="" width="188" class="img-responsive center-block"></div>
+            <img src="images/specs-print-head.png" alt="" width="188" class="img-responsive"></div>
     </div>
 
 
@@ -128,7 +199,7 @@
     <div class="spec-container">
         <div class="spec-item">Enviroment</div>
         <div class="spec-data">
-            <img src="images/specs-thermoms.png" alt="" width="688" class="no-p img-responsive center-block"></div>
+            <img src="images/specs-thermoms.png" alt="" width="688" class="no-p img-responsive"></div>
     </div>
 
     <div class="spec-container">
@@ -151,7 +222,7 @@
         <div class="spec-data">Heat press machine can be used at 356°F (180°C) and 35 seconds duration. For higher volume production, a conveyor oven is recommended to be used at 320° (160°) for three and a half minutes. Time and temperature may vary
             depending on which manufacturer's dryer is used.
 
-            <img src="images/specs-end.png" alt="" width="394" class="img-responsive center-block"></div>
+            <img src="images/specs-end.png" alt="" width="394" class="img-responsive"></div>
     </div>
 
     <div class="spec-container">
@@ -208,9 +279,30 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
+
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            slidesPerView: 3,
+            paginationClickable: true,
+            spaceBetween: 60,
+
+            // If we need pagination
+            pagination: '.swiper-pagination',
+
+            // Navigation arrows
+            nextButton: '.chev-right',
+            prevButton: '.chev-left',
+
+            // And if we need scrollbar
+            scrollbar: '.swiper-scrollbar',
+        })
+    </script>
 </body>
 </html>
