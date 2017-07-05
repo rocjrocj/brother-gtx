@@ -1227,6 +1227,17 @@ footer {
       color: #4d4d4f;
       margin: 0;
       padding: 0; }
+      .specs-container .spec-container .spec-data.thermoms {
+        width: 75%;
+        display: flex;
+        justify-content: space-between; }
+        .specs-container .spec-container .spec-data.thermoms img {
+          align-self: center; }
+        @media (max-width: 992px) {
+          .specs-container .spec-container .spec-data.thermoms {
+            display: block; }
+            .specs-container .spec-container .spec-data.thermoms img {
+              padding-bottom: 30px; } }
       @media (max-width: 992px) {
         .specs-container .spec-container .spec-data {
           width: 90%;
@@ -1236,6 +1247,9 @@ footer {
         padding-top: 20px; }
         .specs-container .spec-container .spec-data img.no-p {
           padding-top: 0; }
+        @media (max-width: 992px) {
+          .specs-container .spec-container .spec-data img {
+            margin: 0 auto; } }
       .specs-container .spec-container .spec-data .platen-container {
         width: 100%;
         display: flex;
@@ -1261,6 +1275,13 @@ footer {
 .swiper-container {
   width: 80%;
   height: 190px; }
+  @media (max-width: 992px) {
+    .swiper-container {
+      width: 98%;
+           /*
+padding-bottom: 20px;*/
+      margin: 0 auto;
+      height: 200px; } }
   .swiper-container .swiper-button-prev {
     top: 20%; }
   .swiper-container .swiper-button-next {
@@ -1273,10 +1294,16 @@ footer {
     position: absolute;
     top: 30px;
     left: -30px; }
+    @media (max-width: 992px) {
+      .chev .chev-left {
+        left: -20px; } }
   .chev .chev-right {
     position: absolute;
     top: 30px;
-    right: 100px; }
+    right: -20px; }
+  @media (max-width: 992px) {
+    .chev {
+      right: -100; } }
 
 /*body#benefits {
 

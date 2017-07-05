@@ -1511,6 +1511,20 @@ width: auto;
         color: #4d4d4f;
         margin: 0;
         padding: 0;
+        &.thermoms {
+          width: 75%;
+          display: flex;
+          justify-content: space-between;
+          img {
+            align-self: center;
+          }
+          @include breakpoint(md) {
+            display: block;
+            img {
+              padding-bottom: 30px;
+            }
+          }
+        }
         @include breakpoint(md) {
           width: 90%;
           margin: 0 auto;
@@ -1521,6 +1535,9 @@ width: auto;
           &.no-p {
             padding-top: 0;
 
+          }
+          @include breakpoint(md) {
+            margin: 0 auto;
           }
         }
         .platen-container {
@@ -1560,6 +1577,12 @@ width: auto;
 .swiper-container {
   width: 80%;
   height: 190px;
+  @include breakpoint(md) {
+    width: 98%;/*
+    padding-bottom: 20px;*/
+    margin: 0 auto;
+    height: 200px;
+  }
   .swiper-button-prev {
     top: 20%;
   }
@@ -1577,11 +1600,17 @@ width: auto;
     position: absolute;
     top: 30px;
     left: -30px;
+    @include breakpoint(md) {
+      left: -20px;
+    }
   }
   .chev-right {
     position: absolute;
     top: 30px;
-    right: 100px;
+    right: -20px;
+  }
+  @include breakpoint(md) {
+    right: -100;
   }
 }
 

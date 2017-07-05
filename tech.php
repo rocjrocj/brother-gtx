@@ -87,13 +87,13 @@
             </div>-->
 
             <div class="chev">
-                <div>
-                    <a href=""><i class="glyphicon glyphicon-chevron-left chev-left"></i></a>
+                <div class="chev-left">
+                    <a href=""><i class="glyphicon glyphicon-chevron-left"></i></a>
                 </div>
             </div>
             <div class="chev">
-                <div>
-                    <a href=""><i class="glyphicon glyphicon-chevron-right chev-right"></a></i>
+                <div class="chev-right">
+                    <a href=""><i class="glyphicon glyphicon-chevron-right"></a></i>
                 </div>
             </div>
 
@@ -198,8 +198,10 @@
 
     <div class="spec-container">
         <div class="spec-item">Enviroment</div>
-        <div class="spec-data">
-            <img src="images/specs-thermoms.png" alt="" width="688" class="no-p img-responsive"></div>
+        <div class="spec-data thermoms">
+            <img src="images/GTX-Specs-02-Operating.png" alt="" width="316" class="no-p img-responsive">
+            <img src="images/GTX-Specs-01-Standby.png" alt="" width="316" class="no-p img-responsive">
+        </div>
     </div>
 
     <div class="spec-container">
