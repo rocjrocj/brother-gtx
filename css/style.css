@@ -985,7 +985,7 @@ footer {
       @media (max-width: 992px) {
         .the-txt .txt-right .lft-container {
           width: 80%;
-          margin: 0 0 0 50px; } }
+          margin: 0 50px 0 0; } }
     .the-txt .txt-right .rgt-container {
       width: 35%;
       margin-right: 30px; }
@@ -998,12 +998,24 @@ footer {
   background: url("../images/ben-fea2-bak.jpg"); }
   #ben-do-more li {
     font-size: 15px; }
+  @media (max-width: 992px) {
+    #ben-do-more img {
+      margin: 30px 0 0 40px;
+      /*padding: 20px;*/ } }
 
 #ben-step1 {
   background: url("../images/ben-fea4-bak.jpg"); }
+  @media (max-width: 992px) {
+    #ben-step1 img {
+      margin: 0 0 0 40px;
+      /*padding: 20px;*/ } }
 
 #ben-step2 {
   background: url("../images/ben-fea5-bak.jpg"); }
+  @media (max-width: 992px) {
+    #ben-step2 img {
+      margin: 20px 0 0 40px;
+      padding: 20px; } }
 
 #ben-step3 {
   background: url("../images/ben-fea6-bak.jpg");
@@ -1032,6 +1044,10 @@ footer {
 
 #ben-step4 {
   background: url("../images/ben-fea8-bak.jpg"); }
+  @media (max-width: 992px) {
+    #ben-step4 img {
+      margin: 30px 0 0 40px;
+      /*padding: 20px;*/ } }
 
 .ben-benefits.media {
   margin-bottom: 40px; }
